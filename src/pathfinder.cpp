@@ -1,6 +1,3 @@
-/**
- * CSE 100 PA4 Pathfinder in Actor Graph
- */
 #include <cstdlib>
 #include <cstring>
 #include <fstream>
