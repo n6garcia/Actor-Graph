@@ -115,7 +115,6 @@ bool ActorGraph::buildGraph(istream& is) {
     return true;
 }
 
-/* TODO */
 void ActorGraph::BFS(const string& fromActor, const string& toActor,
                      string& shortestPath) {
     // Edge Case: from Actor is the same as to Actor
@@ -224,7 +223,6 @@ void ActorGraph::BFS(const string& fromActor, const string& toActor,
     }
 }
 
-/* TODO */
 ActorGraph::~ActorGraph() {
     for (auto it = forest.begin(); it != forest.end(); it++) {
         delete (*it);
