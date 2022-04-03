@@ -54,17 +54,13 @@ class ActorGraph {
     vector<Node*> forest;
 
   public:
-    /* TODO */
     ActorGraph();
 
-    /* TODO */
     bool buildGraph(istream& is);
 
-    /* TODO */
     void BFS(const string& fromActor, const string& toActor,
              string& shortestPath);
 
-    /* TODO */
     ~ActorGraph();
 
     void printEdges() {
