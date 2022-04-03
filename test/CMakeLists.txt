@@ -1,3 +1,0 @@
-add_executable (test_ActorGraph test_ActorGraph.cpp)
-target_link_libraries(test_ActorGraph PRIVATE gtest_main actorgraph_dep)
-add_test(test_ActorGraph test_ActorGraph)
